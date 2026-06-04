@@ -83,6 +83,8 @@ main .main-input-container {
 main .main-input input {
     width: 450px;
     height: 40px;
+    font-size: 1.05rem;
+    color: #302f2f;
     border: none;
     outline: none;
     margin-left: 10px;

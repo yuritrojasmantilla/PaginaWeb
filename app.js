@@ -14,7 +14,7 @@ function buscar() {
     }
  
     const url = `https://www.google.com/search?q=${encodeURIComponent(consulta)}`;
-    window.open(url, '_blank');
+    window.open(url, '_self');
 }
  
 function sentirSuerte() {
@@ -26,7 +26,7 @@ function sentirSuerte() {
     }
  
     const url = `https://www.google.com/search?q=${encodeURIComponent(consulta)}&btnI=1`;
-    window.open(url, '_blank');
+    window.location.href = url;
 }
  
 inputBusqueda.addEventListener('keydown', (e) => {
